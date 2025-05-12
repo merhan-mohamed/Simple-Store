@@ -7,7 +7,7 @@ import Popular from './components/Popular'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/Simple-Store/'>
     <div className='flex h-screen'>
       <Sidebar/>
       <div className='rounded w-full flex justify-center flex-wrap'>
